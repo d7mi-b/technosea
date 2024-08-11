@@ -1,58 +1,21 @@
 /* hero section */
 .hero {
-    height: 100vh;
+    height: 90vh;
     background-image: url('../images/Home.png');
     background-size: cover;
     background-position: center;
     color: var(--white-color);
-    animation-name: bg-anomation;
-    animation-duration: 30s;
-    animation-fill-mode: backwards;
-    animation-iteration-count: infinite;
+    justify-content: center;
+    position: relative;
 }
 
-.hero header h1,
-.hero header h2 {
-    background: linear-gradient(to left, var(--white-color), var(--card-color) 20%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.hero header h1 {
+.hero h1 {
     font-size: 4rem;
 }
 
-.hero header h2 {
+.hero h2 {
     font-weight: 500;
     font-size: 2.5rem;
-}
-
-.hero section:last-child {
-    position: absolute;
-    bottom: 1rem;
-    font-size: 2rem;
-}
-
-@keyframes bg-anomation {
-    0% {
-        background-position: center center;
-    }
-
-    25% {
-        background-position: 1px .1px;
-    }
-
-    50% {
-        background-position: center center;
-    }
-
-    75% {
-        background-position: -1px -.1px;
-    }
-
-    100% {
-        background-position: center center;
-    }
 }
 
 @media (max-width: 992px) {
@@ -60,22 +23,22 @@
         animation: none;
     }
 
-    .hero header h1 {
+    .hero h1 {
         font-size: 3rem;
     }
     
-    .hero header h2 {
+    .hero h2 {
         font-weight: 500;
         font-size: 2rem;
     }
 }
 
 @media (max-width: 375px) {
-    .hero header h1 {
+    .hero h1 {
         font-size: 2rem;
     }
     
-    .hero header h2 {
+    .hero h2 {
         font-weight: 500;
         font-size: 1.5rem;
     }

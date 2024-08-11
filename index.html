@@ -21,12 +21,36 @@
 
     <body>
         <!-- for the navbar -->
-        <header></header>
+        <header>
+            <nav class="navbar">
+                <section class="logo center non-responsive">
+                    <img src="/public/logo.jpg" alt="logo">
+                </section>
+    
+                <ul>
+                    <li class="center bar responsive">
+                        <i class="fi fi-ts-bars-staggered"></i>
+                    </li>
+                    <li class="logo center responsive">
+                        <img src="/public/logo.jpg" alt="logo">
+                    </li>
+                    <ul>
+                        <li>
+                            <a href="/">المعدات البحرية</a>
+                        </li>
+                        <li>
+                            <a href="/pages/about">المعدات الصناعية</a>
+                        </li>
+                    </ul>
+                </ul>
+            </nav>
+        </header>
 
-        <script type="module">
-            import Navbar from './components/navbar.js';
-
-            Navbar();
-        </script>
+        <main>
+            <header class="hero section center">
+                <h1>تكنوسي</h1>
+                <h2>المعدات البحرية والصناعية بأعلى معايير الجودة</h2>
+            </header>
+        </main>
     </body>
 </html>
