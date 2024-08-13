@@ -86,8 +86,26 @@
 .about .img img {
     width: 20rem;
     position: absolute;
-    top: -5rem;
+    top: 100%;
     right: -4rem;
+}
+
+.showing-up {
+    animation: 3s showing-up ease forwards;
+}
+
+@keyframes showing-up {
+    0% {
+        top: 100%
+    }
+
+    80% {
+        top: -10rem
+    }
+
+    100% {
+        top: -5rem
+    }
 }
 
 .about p {
@@ -109,6 +127,12 @@
         width: 100%;
         text-align: justify;
         text-justify: inter-cluster;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        height: 70vh;
     }
 }
 

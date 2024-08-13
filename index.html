@@ -103,5 +103,20 @@
                 <p>الحقوق محفوظة  لشركة تكنوسي &copy; 2024</p>
             </section>
         </footer>
+
+        <script>
+            const aboutSection = document.querySelector('.about');
+            const aboutOffset = aboutSection.offsetTop;
+
+            window.addEventListener('scroll', () => {
+                const scrollOffset = window.scrollY;
+
+                if (scrollOffset + 200 > aboutOffset) {
+                    const image = document.querySelector('.about .img img');
+
+                    image.classList.add('showing-up');
+                }
+            })
+        </script>
     </body>
 </html>
