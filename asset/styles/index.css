@@ -250,3 +250,24 @@ i {
         width: 100%;
     }
 }
+
+/* footer */
+.footer {
+    background-image: linear-gradient(-45deg, var(--dark-color), var(--main-color));
+    padding-bottom: .5rem;
+}
+
+.footer .logo {
+    width: 6rem;
+    padding: .5rem;
+    background-color: var(--white-color);
+    border-radius: .5rem;
+    margin: 2rem auto;
+}
+
+.footer .copyright {
+    font-size: .9rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--white-color);
+}
