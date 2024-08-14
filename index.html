@@ -117,6 +117,19 @@
                     image.classList.add('showing-up');
                 }
             })
+
+            const buttonsSection = document.querySelector('.buttons-redirect');
+            const buttonsOffset = buttonsSection.offsetTop;
+
+            window.addEventListener('scroll', () => {
+                const scrollOffset = window.scrollY;
+
+                if (scrollOffset + 200 > buttonsOffset) {
+                    const buttons = document.querySelectorAll('.buttons-redirect .button-redirect');
+
+                    buttons.forEach(e => e.classList.add('animationButtons'));
+                }
+            })
         </script>
     </body>
 </html>
