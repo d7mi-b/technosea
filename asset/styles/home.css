@@ -1,35 +1,38 @@
 /* hero section */
 .hero {
-    height: 90vh;
-    background-image: url('../images/Home.png');
+    height: 70vh;
+    /* background-image: url('../images/Home.png'); */
     background-size: cover;
     background-position: center;
-    color: var(--white-color);
+    color: var(--main-color);
     justify-content: center;
     position: relative;
-    animation: 5s boat linear infinite;
+    /* animation: 5s boat linear infinite; */
 }
 
-@keyframes boat {
+/* @keyframes boat {
     0% {
         background-position: center;
     }
-
-    /* 25% {
-        background-position: -2px -1px;
-    } */
 
     50% {
         background-position: 2px 1px;
     }
 
-    /* 75% {
-        background-position: -2px -1px;
-    } */
-
     100% {
         background-position: center;
     }
+} */
+
+.hero .logo {
+    width: 10rem;
+    padding: .5rem;
+    background-color: var(--white-color);
+    border-radius: .5rem;
+}
+
+.hero .logo img {
+    width: 100%;
 }
 
 .hero h1 {
@@ -196,7 +199,7 @@
 }
 
 .animationButtons {
-    animation: 1.5s flip linear forwards;
+    animation: 1s flip linear forwards;
 }
 
 @keyframes flip {
@@ -205,11 +208,11 @@
     }
 
     50% {
-        transform: rotateY(-180deg);
+        transform: rotateY(180deg);
     }
 
     60% {
-        transform: rotateY(-90deg);
+        transform: rotateY(270deg);
     }
 
     100% {

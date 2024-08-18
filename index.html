@@ -21,7 +21,7 @@
 
     <body>
         <!-- for the navbar -->
-        <header>
+        <!-- <header>
             <nav class="navbar">
                 <section class="logo center non-responsive">
                     <img src="/public/logo.jpg" alt="logo">
@@ -44,15 +44,19 @@
                     </ul>
                 </ul>
             </nav>
-        </header>
+        </header> -->
 
         <main>
             <header class="hero section center">
+                <section class="logo center">
+                    <img src="/public/logo.png" alt="Technose logo">
+                </section>
+
                 <h1>تكنوسي</h1>
                 <h2>المعدات البحرية والصناعية بأعلى معايير الجودة</h2>
             </header>
 
-            <section class="about center">
+            <!-- <section class="about center">
                 <article class="center">
                     <section class="img">
                         <img src="/asset/images/kolbefoodtec_bandsaegen_k220.png" alt="kolbefoodtec">
@@ -66,19 +70,19 @@
                         نحن هنا لنلبي كافة احتياجاتك بأفضل الحلول المتاحة في السوق
                     </p>
                 </article>
-            </section>
+            </section> -->
 
             <section class="buttons-redirect section">
                 <a href="/" class="button-redirect center">
                     <header>
-                        <h2>المعدات البحرية</h2>
+                        <h2>قسم البحرية</h2>
                     </header>
                     <p>استكشف تشكيلتنا الواسعة من المحركات، الأدوات، والملحقات البحرية</p>
                 </a>
 
                 <a href="/" class="button-redirect center">
                     <header>
-                        <h2>المعدات الصناعية</h2>
+                        <h2>قسم الصناعية</h2>
                     </header>
                     <p>احصل على أحدث المعدات الصناعية المصممة لتعزيز الكفاءة والأداء</p>
                 </a>
@@ -89,7 +93,7 @@
             </section>
         </main>
 
-        <footer class="footer section">
+        <!-- <footer class="footer section">
             <section class="logo center">
                 <img src="/public/logo.jpg" alt="logo">
             </section>
@@ -102,21 +106,21 @@
             <section class="copyright">
                 <p>الحقوق محفوظة  لشركة تكنوسي &copy; 2024</p>
             </section>
-        </footer>
+        </footer> -->
 
         <script>
-            const aboutSection = document.querySelector('.about');
-            const aboutOffset = aboutSection.offsetTop;
+            // const aboutSection = document.querySelector('.about');
+            // const aboutOffset = aboutSection.offsetTop;
 
-            window.addEventListener('scroll', () => {
-                const scrollOffset = window.scrollY;
+            // window.addEventListener('scroll', () => {
+            //     const scrollOffset = window.scrollY;
 
-                if (scrollOffset + 200 > aboutOffset) {
-                    const image = document.querySelector('.about .img img');
+            //     if (scrollOffset + 200 > aboutOffset) {
+            //         const image = document.querySelector('.about .img img');
 
-                    image.classList.add('showing-up');
-                }
-            })
+            //         image.classList.add('showing-up');
+            //     }
+            // })
 
             const buttonsSection = document.querySelector('.buttons-redirect');
             const buttonsOffset = buttonsSection.offsetTop;
