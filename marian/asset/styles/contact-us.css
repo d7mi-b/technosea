@@ -25,6 +25,10 @@
     font-size: 3rem;
 }
 
+.card:hover .icon {
+    animation: none;
+}
+
 .card header h3 {
     background: unset;
     -webkit-text-fill-color: unset;
