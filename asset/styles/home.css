@@ -1,31 +1,16 @@
 /* hero section */
 .hero {
-    height: 70vh;
+    height: 90vh;
     /* background-image: url('../images/Home.png'); */
     background-size: cover;
     background-position: center;
     color: var(--main-color);
     justify-content: center;
     position: relative;
-    /* animation: 5s boat linear infinite; */
 }
 
-/* @keyframes boat {
-    0% {
-        background-position: center;
-    }
-
-    50% {
-        background-position: 2px 1px;
-    }
-
-    100% {
-        background-position: center;
-    }
-} */
-
 .hero .logo {
-    width: 10rem;
+    width: 20rem;
     padding: .5rem;
     background-color: var(--white-color);
     border-radius: .5rem;
@@ -36,12 +21,12 @@
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .hero h2 {
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 @media (max-width: 992px) {
@@ -154,7 +139,6 @@
     color: var(--white-color);
     padding: 1.5rem;
     background-size: cover;
-    transform: rotateY(90deg);
 }
 
 .buttons-redirect > a > * {
@@ -198,7 +182,7 @@
     opacity: .7;
 }
 
-.animationButtons {
+/* .animationButtons {
     animation: 1s flip linear forwards;
 }
 
@@ -218,7 +202,7 @@
     100% {
         transform: rotateY(0deg);
     }
-}
+} */
 
 .buttons-redirect > a:hover {
     transform: scale(1.02);

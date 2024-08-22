@@ -4,7 +4,7 @@ const Navbar = () => {
     const navbar = `
         <nav class="navbar">
             <section class="logo center non-responsive">
-                <img src="/public/logo.jpg" alt="logo">
+                <img src="/marian/public/logo.png" alt="logo">
             </section>
 
             <ul>
@@ -12,26 +12,26 @@ const Navbar = () => {
                     <i class="fi fi-ts-bars-staggered"></i>
                 </li>
                 <li class="logo center responsive">
-                    <img src="/public/logo.jpg" alt="logo">
+                    <img src="/marian/public/logo.png" alt="logo">
                 </li>
                 <ul>
                     <li>
-                        <a href="/">الرئيسية</a>
+                        <a href="/marian/">الرئيسية</a>
                     </li>
                     <li>
-                        <a href="/pages/about">من نحن؟</a>
+                        <a href="/marian/pages/about.html">من نحن؟</a>
                     </li>
                     <li>
-                        <a href="/#services">الخدمات</a>
+                        <a href="/marian/#services">الخدمات</a>
                     </li>
                     <li>
-                        <a href="/pages/products">المنتجات</a>
+                        <a href="/marian/pages/products.html">المنتجات</a>
                     </li>
                 </ul>
             </ul>
 
             <section>
-                <a class="center btn btn-linear" href="/pages/contact">تواصل معنا</a>
+                <a class="center btn btn-linear" href="/marian/pages/contact-us.html">تواصل معنا</a>
             </section>
         </nav>
     `;
