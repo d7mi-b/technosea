@@ -504,11 +504,8 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
-<<<<<<< HEAD
-=======
 
 body > section:not(body > section.hero) {
     transform: translate(100%);
     opacity: 0;
 }
->>>>>>> a9cd976528caf53fcdb495db88070c2b5783b7ab
