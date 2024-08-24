@@ -3,7 +3,7 @@ const Footer = () => {
 
     footer.innerHTML = `
         <section class="logo center">
-            <img src="/marian/public/logo.png" alt="Technosea logo">
+            <img src="/public/logo.png" alt="Technosea logo">
         </section>
 
         <section class="content">
@@ -24,10 +24,10 @@ const Footer = () => {
                 </header>
 
                 <ul>
-                    <li><a href="/marian/">الرئيسية</a></li>
-                    <li><a href="/marian/pages/about.html">من نحن؟</a></li>
-                    <li><a href="/marian/#services">الخدمات</a></li>
-                    <li><a href="/marian/pages/products.html">المنتجات</a></li>
+                    <li><a href="/">الرئيسية</a></li>
+                    <li><a href="/pages/about.html">من نحن؟</a></li>
+                    <li><a href="/pages/services.html">الخدمات</a></li>
+                    <li><a href="/pages/products.html">المنتجات</a></li>
                 </ul>
             </section>
 
@@ -37,8 +37,8 @@ const Footer = () => {
                 </header>
 
                 <ul>
-                    <li><a href="/marian/#faq">الاسئلة الشائعة</a></li>
-                    <li><a href="/marian/pages/contact-us.html">تواصل معنا</a></li>
+                    <li><a href="/#faq">الاسئلة الشائعة</a></li>
+                    <li><a href="/pages/contact-us.html">تواصل معنا</a></li>
                 </ul>
             </section>
 
@@ -74,9 +74,9 @@ const Footer = () => {
                 </article>
 
                 <ul class="icons">
-                    <li><a href="/marian/"><i class="fi fi-brands-whatsapp"></i></a></li>
-                    <li><a href="/marian/"><i class="fi fi-brands-twitter-alt"></i></li>
-                    <li><a href="/marian/"><i class="fi fi-brands-instagram"></i></a></li>
+                    <li><a href="/"><i class="fi fi-brands-whatsapp"></i></a></li>
+                    <li><a href="/"><i class="fi fi-brands-twitter-alt"></i></li>
+                    <li><a href="/"><i class="fi fi-brands-instagram"></i></a></li>
                 </ul>
             </section>
         </section>

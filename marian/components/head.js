@@ -2,11 +2,7 @@ function Head () {
     const head = document.head;
 
     head.innerHTML = `
-            <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-            <meta name="description" content="وجهتك المثالية لمعدات بحرية عالية الجودة لضمان رحلتك بأمان ومتعة">
-            <meta name="keywords" content="Technosea, تكنوسي, معدات بحرية, marian, بحرية, محركات, engine">
 
             <!-- Icons -->
             <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
